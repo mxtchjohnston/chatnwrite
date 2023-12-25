@@ -1,6 +1,7 @@
 import { signIn, signOut, useSession } from "next-auth/react";
 import Head from "next/head";
 import Link from "next/link";
+import ThemeChanger from "~/components/ThemeChanger";
 
 import { api } from "~/utils/api";
 
