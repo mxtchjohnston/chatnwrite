@@ -41,7 +41,7 @@ export default function ChatWindow() {
 // Chat component
 // accepts user, text, time, left | right
 // Breaks down into chat text, chat time, chat user
-
+/*
 function Chat(props) {
   return (<div className="chat">
     <Avatar />
@@ -76,3 +76,4 @@ function ChatFooter(props) {
     Delivered
   </div>)
 }
+*/
