@@ -3,7 +3,6 @@ import ThemeChanger from "~/components/ThemeChanger";
 
 export default function Scratch() {
   <>
-    <ThemeChanger />
-    <ChatWindow />
+    <h1>Scratch</h1>
   </>
 }
