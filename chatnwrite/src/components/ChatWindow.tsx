@@ -1,6 +1,11 @@
 import Image from "next/image";
 import { Panel, PanelGroup } from "react-resizable-panels";
 
+type ChatProps = {
+  text?: string;
+  children?: React.ReactNode;
+}
+
 export default function ChatWindow() {
   return (
     <div className="mx-2">
@@ -37,6 +42,10 @@ export default function ChatWindow() {
     </div>
   );
 };
+
+const Bubble = (props: ChatProps) => {
+  return (<div className="chat-bubble">{props.text}</div>)
+}
 
 // Chat component
 // accepts user, text, time, left | right
